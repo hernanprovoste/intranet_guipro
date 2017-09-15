@@ -1,0 +1,48 @@
+@import "bootstrap-sprockets";
+@import "bootstrap";
+@import url('https://fonts.googleapis.com/css?family=Montserrat');
+
+body {
+    margin: 0 auto;
+    background-image: url(pajarito.jpg);
+    background-repeat: no-repeat;
+    background-size: 100%;
+    font-family: 'Montserrat', sans-serif;
+}
+
+.container {
+    width: 31.25em;
+    height: 25em;
+    text-align: center;
+    margin: 0 auto;
+    //background-color: rgba(52, 73, 94, 0.7);
+    background: rgba(0, 153, 0, 0.4)!important;
+    margin-top: 9.375em;
+    img{
+        width: 7.5em;
+        height: 7.5em;
+        margin-top: -3.75em;
+        margin-bottom: 1.875em;
+    }
+    .form-group {
+        width: 100%;
+        .form-control {
+            margin: 0 auto;
+            height: 2.813em;
+            width: 18.75em;
+            font-size: 1.125em;
+            margin-bottom: 1.250em;
+            background-color: #fff;
+            padding-left: 0.5em;
+        }
+        .btn-default {
+            margin-top: 1.5em;
+            height: 3.75em;
+            width: 18.75em;
+            background-color: rgb(77, 77, 255);
+            border: 0px;
+            color: #fff;
+            font-size: 1.125em;
+        }
+    }
+}
